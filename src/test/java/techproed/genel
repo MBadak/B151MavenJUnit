@@ -1,0 +1,8 @@
+
+// Amazonu ingilizce yapmak
+driver.findElement(By.xpath("//span[@class='icp-nav-link-inner']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//*[@class='a-icon a-icon-radio'])[1]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@class='a-button-input']")).click();
+        Thread.sleep(1000);
