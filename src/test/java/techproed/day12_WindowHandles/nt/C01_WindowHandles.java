@@ -121,7 +121,7 @@ public class C01_WindowHandles extends TestBase {
         //  https://the-internet.herokuapp.com/windows adresine gidin.
         driver.get("https://the-internet.herokuapp.com/windows");
 
-      
+
         //  "Click Here" butonuna tıklayın.
         driver.findElement(By.xpath("(//a)[2]")).click();//--> Kontrolümüz dışında Yeni bir sekme açıldı
         bekle(3);
