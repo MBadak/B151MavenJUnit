@@ -22,8 +22,5 @@ public class C03_Actions extends TestBase {
         //Acilan sayfanin Title in "Mein Konto" icerdigini dogrula
         Assert.assertTrue(driver.getTitle().equals("Mein Konto"));
 
-
-
-
     }
 }
